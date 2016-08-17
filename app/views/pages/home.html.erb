@@ -1,5 +1,38 @@
 <%= link_to 'About', pages_about_path %>
 <%= link_to 'Home', pages_home_path %>
-
-
 <H1>HOME</H1>
+
+<html>
+<head>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+<table style="height: 423px;" width="738">
+<tbody>
+<tr>
+<td style="text-align: center; vertical-align: middle;">    
+
+<div class="boxb">    
+        <label for="BLUE"><abbr title="Qty">BLUE</abbr></label>
+        <input id="qtyblue" value="0" />
+        <button id="down" onclick="modify_qtyblue(-1)">-1</button>
+        <button id="up"  accesskey="d" onclick="modify_qtyblue(1)">+1</button>
+</div>
+
+</td>
+<td style="text-align: center; vertical-align: middle;">    
+
+<div class="boxr">    
+        <label for="RED"><abbr title="Qty">RED</abbr></label>
+        <input id="qtyred" value="0" />
+        <button id="down" onclick="modify_qtyred(-1)">-1</button>
+        <button id="up" accesskey="k" onclick="modify_qtyred(1)">+1</button>
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
