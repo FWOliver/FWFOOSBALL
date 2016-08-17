@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  round: 1
+  team: MyText
+  score: 1
+
+two:
+  round: 1
+  team: MyText
+  score: 1
