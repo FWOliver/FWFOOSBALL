@@ -1,4 +1,5 @@
 function modify_qtyblue(val) {
+
     var qtyblue = document.getElementById('qtyblue').value;
     var new_qtyblue = parseInt(qtyblue,10) + val;
     
@@ -11,6 +12,7 @@ function modify_qtyblue(val) {
 }
 
 function modify_qtyred(val) {
+
     var qtyred = document.getElementById('qtyred').value;
     var new_qtyred = parseInt(qtyred,10) + val;
     
@@ -21,3 +23,9 @@ function modify_qtyred(val) {
     document.getElementById('qtyred').value = new_qtyred;
     return new_qtyred;
 }
+
+var beepOne = $("#beep-one")[0];
+$("#nav-one a")
+    .mouseenter(function() {
+        beepOne.play();
+    });
