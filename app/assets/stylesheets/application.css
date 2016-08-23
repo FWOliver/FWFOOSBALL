@@ -18,12 +18,12 @@ body {
 }
 
 input {
-	font-size: 8.0em;
+	font-size: 7.0em;
 	background-color: transparent;
 	text-align: center;
 	border-width: 0;
-	width: 80%;
-	margin: 0.8em 0 0.8em 0;
+	width: 100%;
+	margin: 0 0 0.8em 0;
 	color: #fff;
 }
 
@@ -37,8 +37,8 @@ button {
 	color: #444;
 	background-color: #B5B198;
 	/* rounded corners */
-    -webkit-border-radius: 120px;
-          border-radius: 120px; 
+    -webkit-border-radius: 12px;
+          border-radius: 12px; 
     -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
 	font-weight: bold;
 
@@ -58,7 +58,7 @@ button:hover, button:active, button:focus {
     -webkit-border-radius: 12px;
     border-radius: 13px; 
     -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
-    padding: 6em 6em 6em 6em;
+    padding: 6em 3em 6em 3em;
     width: 8em;
 	margin: 0 auto;	
   	-webkit-box-shadow: 0px 0px 12px 0px #000;
@@ -75,7 +75,7 @@ button:hover, button:active, button:focus {
     -webkit-border-radius: 12px;
     border-radius: 13px; 
     -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
-    padding: 6em 6em 6em 6em;
+    padding: 6em 3em 6em 3em;
     width: 8em;
 	margin: 0 auto;	
   	-webkit-box-shadow: 0px 0px 12px 0px #000;
