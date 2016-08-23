@@ -18,18 +18,18 @@ body {
 }
 
 input {
-	font-size: 2.4em;
+	font-size: 8.0em;
 	background-color: transparent;
 	text-align: center;
 	border-width: 0;
 	width: 100%;
-	margin: 0 0 .1em 0;
+	margin: 0 0 0 0;
 	color: #fff;
 }
 
 label {
 	display: block;
-	font-size: .8em;
+	font-size: 2.1em;
 }
 
 button {
@@ -55,8 +55,8 @@ button:hover, button:active, button:focus {
     text-align: center;
 
 	/* rounded corners */
-    -webkit-border-radius: 24px;
-    border-radius: 24px; 
+    -webkit-border-radius: 12px;
+    border-radius: 13px; 
     -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
     padding: .8em .8em 1em;
     width: 8em;
@@ -72,8 +72,8 @@ button:hover, button:active, button:focus {
     text-align: center;
 
 	/* rounded corners */
-    -webkit-border-radius: 24px;
-    border-radius: 24px; 
+    -webkit-border-radius: 12px;
+    border-radius: 13px; 
     -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
     padding: .8em .8em 1em;
     width: 8em;
