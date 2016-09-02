@@ -17,7 +17,7 @@
         <label for="BLUE"><abbr title="Qty">BLUE</abbr></label>
         <input id="qtyblue" value="0" />
         <button id="down" onclick="modify_qtyblue(-1)">-1</button>
-        <button id="up"  accesskey="r" onclick="modify_qtyblue(1)">+1</button>
+        <button id="up" accesskey="r" onclick="modify_qtyblue(1);audio.play()">+1</button>
 </div>
 
 </td>
@@ -27,7 +27,7 @@
         <label for="RED"><abbr title="Qty">RED</abbr></label>
         <input id="qtyred" value="0" />
         <button id="down" onclick="modify_qtyred(-1)">-1</button>
-        <button id="up" accesskey="j" onclick="modify_qtyred(1)">+1</button>
+        <button id="up" accesskey="j" onclick="modify_qtyred(1);audio.play()">+1</button>
 </div>
 
 </td>
@@ -36,6 +36,4 @@
 </table>
 </body>
 </html>
-
-
 
