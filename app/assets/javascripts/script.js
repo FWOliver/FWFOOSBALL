@@ -11,6 +11,8 @@ function modify_qtyblue(val) {
     return new_qtyblue;
 }
 
+
+
 function modify_qtyred(val) {
 
     var qtyred = document.getElementById('qtyred').value;
@@ -22,10 +24,13 @@ function modify_qtyred(val) {
     
     document.getElementById('qtyred').value = new_qtyred;
     return new_qtyred;
+
 }
 
-var beepOne = $("#beep-one")[0];
-$("#nav-one a")
-    .mouseenter(function() {
-        beepOne.play();
-    });
+var audio = new Audio("http://themushroomkingdom.net/sounds/wav/smb/smb_coin.wav" ) ;
+
+audio.oncanplaythrough = function(){
+audio.play();
+}
+
+audio.loop = false;
