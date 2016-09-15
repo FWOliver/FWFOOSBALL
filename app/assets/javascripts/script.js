@@ -27,7 +27,7 @@ function modify_qtyred(val) {
 
 }
 
-var audio = new Audio("http://themushroomkingdom.net/sounds/wav/smb/smb_coin.wav" ) ;
+var audio = new Audio("http://themushroomkingdom.net/sounds/wav/smb/smb_pipe.wav" ) ;
 
 audio.oncanplaythrough = function(){
 audio.play();
